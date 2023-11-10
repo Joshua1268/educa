@@ -1,0 +1,45 @@
+<div>
+    <header>
+        <img src="/assets/Group 55.png" alt="">
+    </header>
+    <main>
+       <div class="container">
+    
+        <!--container form-->
+
+           <div class="submit">
+                 <div class="description">
+                     <h3>Inscrivez vous!</h3>
+                 </div>
+        
+                 <form>
+                    <div class="input-group mb-3">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="  Email">
+                    </div>
+                    <div >
+  <!-- <button (click)="hide = !hide">{{hide ? 'Afficher' : 'Masquer'}} le mot de passe</button>                    </div> -->
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="  Mot de passe "><br>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="  Confirmer mot de passe ">
+
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button><br>
+                    <a [routerLink]="['/page-acceuil']">
+                        <div class="retour">
+                            <p>
+                                <i class="fa-solid fa-arrow-left" style="color: #22424d;"></i>  Retour
+                            </p>
+                        </div>
+                    </a>
+                  </form>
+            </div>
+
+         <!--container img classroom-->
+                 <img src="/assets/cool.png" alt="" id="classroom">
+          
+      </div>
+    </main>
+    <footer>
+        <p>Copyright © 2023 - Tous Droits Reservés</p>
+    </footer>
+</div>

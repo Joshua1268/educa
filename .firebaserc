@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "educaplus-1d0bc": {
+      "hosting": {
+        "educa": [
+          "educaplus-1d0bc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "educaplus-1d0bc"
+  }
+}
